@@ -72,7 +72,7 @@ header img {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 5rem;
     color: var(--violet-color);
-    transition: all 500ms ease;
+    transition: background-color 500ms ease;
 }
 
 #container .text .btn:hover {
