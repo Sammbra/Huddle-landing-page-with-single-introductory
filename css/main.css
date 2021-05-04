@@ -1,0 +1,107 @@
+
+:root {
+    --violet-color: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white-color: hsl(100, 100%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--violet-color);
+    color: var(--white-color);
+    line-height: 1.6;
+    background-image: url('../images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+header {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+header img {
+    width: 150px
+}
+
+#container {
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    max-width: 25rem;
+}
+
+#container .illustration img {
+    width: 350px;
+    display: block;
+}
+
+#container .text {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#container .text h1 {
+    font-size: 1.5rem;
+}
+
+#container .text p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container .text .btn {
+    display: inline-block;
+    background-color: var(--white-color);
+    padding: 1rem 4rem;
+    border-radius: 1.875rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 5rem;
+    color: var(--violet-color);
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+footer ul li {
+    padding: 0 0.5rem;
+}
+
+footer ul li i {
+    box-sizing: initial;
+    border: 1px solid var(--white-color);
+    padding: 1rem;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    /* line-height: 20px; */
+    border-radius: 50%;
+}
+
+footer .attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .attribution a {
+    color: var(--white-color);
+}
