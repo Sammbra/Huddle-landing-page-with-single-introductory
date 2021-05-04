@@ -65,6 +65,7 @@
 @media(min-width: 1200px) {
     body {
         background-image: url('../images/bg-desktop.svg');
+        background-size: cover;
     }
     
     header {
